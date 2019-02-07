@@ -1,7 +1,7 @@
 .title{
     text-align: center;
     background-color: blue;
-    font-size: 100px
+    font-size: 100px;
 }
 
 img{
@@ -14,5 +14,13 @@ img{
 }
 .login{
     text-align: center;
-    font-size: 50px
+    font-size: 50px;
+
+}
+.form{
+    background-color: blue;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 25px;
+    text-align: center;
 }
