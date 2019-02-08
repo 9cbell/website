@@ -2,6 +2,7 @@
     text-align: center;
     background-color: blue;
     font-size: 100px;
+    color: white;
 }
 
 img{
@@ -23,4 +24,19 @@ img{
     margin-right: 35%;
     font-size: 25px;
     text-align: center;
+    color: white;
+}
+a{
+    color: white;
+}
+
+.Title2{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+#MPI{
+    height: 50px;
+    width: 50px;
 }
