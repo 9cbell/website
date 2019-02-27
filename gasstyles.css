@@ -67,3 +67,21 @@ a{
     margin-right: auto;
     margin: 0 auto;
 }
+
+.soda{
+    height: 250px;
+    width: 275px;
+    padding: 25px;
+}
+
+.candy{
+    height: 250px;
+    width: 275px;
+    padding: 25px;
+}
+
+.label{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
