@@ -26,6 +26,9 @@ img{
     text-align: center;
     color: white;
 }
+input{
+    width:50px;
+}
 a{
     color: white;
 }
