@@ -88,3 +88,19 @@ a{
     font-size: 50px;
     color: blue;
 }
+
+.sodas{
+    text-align: center;
+    color: blue;
+}
+
+.candies{
+    text-align: center;
+    color: blue;
+}
+
+.button{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 35%;
+}
