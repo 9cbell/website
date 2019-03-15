@@ -57,7 +57,9 @@ a{
 
 .menu{
     height: 50px;
-    width: 50px;
+    width: 500px;
+    margin: 0 auto;     
+    text-align: center;
 }
 
 .item{
@@ -66,8 +68,8 @@ a{
     text-align: center;
     color: blue;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50%;
+    margin-right: 50%;
     margin: 0 auto;
 }
 
@@ -103,4 +105,11 @@ a{
     text-align: center;
     margin-left: 50%;
     margin-right: 35%;
+}
+
+.link{
+    margin-left: auto;
+    margin-right: auto;
+    margin:0 auto; 
+    font-size: 50px;
 }
