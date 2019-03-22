@@ -62,17 +62,6 @@ a{
     text-align: center;
 }
 
-.item{
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    color: blue;
-    display: block;
-    margin-left: 50%;
-    margin-right: 50%;
-    margin: 0 auto;
-}
-
 .soda{
     height: 250px;
     width: 275px;
@@ -108,14 +97,16 @@ a{
 }
 
 .link{
-    margin-left: auto;
-    margin-right: auto;
+    width: 400px;
     margin:0 auto; 
     font-size: 50px;
+    color: blue;
 }
 
-.rewards{
-    margin-left: auto;
-    margin-right: auto;
+.rewardbox{
     margin: 0 auto;
+    color: gray;
+}
+h4,h5{
+    text-align: center;
 }
