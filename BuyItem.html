@@ -23,18 +23,16 @@
 
 <form action="buy.php" method="post">
     <section class="sodas">
-        <div class="row">
-            <div>Coke<input name="coke"type="number" min="0"></div>
-            <div>Pepsi<input name="pepsi"type="number" min="0"></div>
-            <div>Diet Coke<input name="diet coke"type="number" min="0"></div>
-            <div>Diet Pepsi<input name="diet pepsi"type="number" min="0"></div>
-        </div>
-        <div class="row">
-            <div>Dr. Pepper<input name="dr. pepper"type="number" min="0"></div>
-            <div>Diet Dr. Pepper<input name="diet dr. pepper"type="number" min="0"></div>
-            <div>RC<input name="rc"type="number" min="0"></div>
-            <div>Diet Rite<input name="diet rite"type="number" min="0"></div>
-        </div>
+        <select name="soda" class="row">
+            <option name="soda" value="coke">Coke</option>
+            <option name="soda" value="pepsi">Pepsi</option>
+            <option name="soda" value="dietcoke">Diet Coke</option>
+            <option name="soda" value="dietpepsi">Diet Pepsi</option>
+            <option name="soda" value="drpepper">Dr. Pepper</option>
+            <option name="soda" value="rc">RC</option>
+            <option name="soda" value="dietdrpepper">Diet Dr. Pepper</option>
+            <option name="soda" value="dietrite">Diet Rite</option>
+        </select>
     </section>
     <img class="candy" src="http://www.blazingcariboustudios.com/wp-content/uploads/2018/01/90s-Candy.jpg">
 
@@ -42,18 +40,14 @@
         Candy
     </p>
     <section class="candies">
-        <div class="row">
-            <div>Hersheys<input name="hersheys"type="number" min="0"></div>
-            <div>Skittles<input name="skittles"type="number" min="0"></div>
-            <div>Crunch<input name="crunch"type="number" min="0"></div>
-            <div>M&Ms<input name="M&Ms"type="number" min="0"></div>
-        </div>
-        <div class="row">
-            <div>Jolly Ranchers<input name="Jolly Ranchers"type="number" min="0"></div>
-            <div>Reeses<input name="reeses"type="number" min="0"></div>
-            <div>Starburst<input name="Starburst"type="number" min="0"></div>
-            <div>Sour Patch Kids<input name="Sour Patch Kids"type="number" min="0"></div>
-        </div>
+      <option name="candy" value="sourpatchkids">Sour Patch Kids</option>
+      <option name="candy" value="twizzlers">Twizzlers</option>
+      <option name="candy" value="reeses">Reeses</option>
+      <option name="candy" value="milkyway">Milkyway</option>
+      <option name="candy" value="jollyranchers">Jolly Ranchers</option>
+      <option name="candy" value="Her">RC</option>
+      <option name="candy" value="dietdrpepper">Diet Dr. Pepper</option>
+      <option name="candy" value="dietrite">Diet Rite</option>
     </section>
     <input class="button" type="submit" value="submit">
 </form>
