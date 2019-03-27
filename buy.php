@@ -1,9 +1,9 @@
 <?php
 
-$candy = $_POST[''];
-$candycount = $_POST['make'];
-$soda = $_POST['model'];
-$sodacount = $_POST['year'];
+$candy = $_POST['candy'];
+$candycount = $_POST['candy'];
+$soda = $_POST['soda'];
+$sodacount = $_POST['soda'];
 
 
 
