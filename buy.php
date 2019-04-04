@@ -21,4 +21,12 @@ if ($conn->connect_error) {
 
 $sql = "INSERT INTO tablename (candy, candycount, sodacount, soda) VALUES ('" . $candy . "', '" . $candycount . "', '" . $soda . "', '" . $sodacount . "')";
 
+if ($conn->query($sql) === true) {
+    echo "Successful Order!";
+    echo "<a href=\"MainPage.html\" onclick=\"location.reload()\">Go back to home page</a>";
+} else {
+    echo 'Error: ' . $sql . '<br>' . $conn->error;
+}
+$conn->close();
+
 ?>
